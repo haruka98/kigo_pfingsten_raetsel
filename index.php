@@ -9,7 +9,7 @@
 <title>KiGo Rätsel: Pfingsten</title>
 </head>
 
-<body style="text-align: center;">
+<body style="text-align: center; margin: auto; width: 50%;">
 	<?php
 		if(array_key_exists('submit', $_POST)) {
 			if($_POST["a"] == "W" && $_POST["b"] == "U" && $_POST["c"] == "R" && $_POST["d"] == "D" && $_POST["e"] == "E" && $_POST["f"] == "N"
@@ -37,12 +37,12 @@
 	<h2>Etwa 3000 Menschen...</h2>
 	<table>
 		<tr>
-			<th><input name="a" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="b" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="c" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="d" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="e" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="f" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="a" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="b" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="c" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="d" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="e" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="f" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>92</th>
@@ -55,8 +55,8 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="g" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="h" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="g" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="h" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>31</th>
@@ -65,12 +65,12 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="i" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="j" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="k" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="l" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="m" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="n" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="i" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="j" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="k" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="l" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="m" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="n" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>32</th>
@@ -83,9 +83,9 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="o" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="p" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="q" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="o" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="p" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="q" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>82</th>
@@ -95,8 +95,8 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="r" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="s" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="r" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="s" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>52</th>
@@ -105,9 +105,9 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="t" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="u" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="v" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="t" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="u" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="v" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>32</th>
@@ -117,14 +117,14 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="w" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="x" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="y" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="z" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="aa" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ab" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ac" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ad" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="w" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="x" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="y" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="z" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="aa" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ab" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ac" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ad" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>51</th>
@@ -139,17 +139,17 @@
 	</table>
 	<table>
 		<tr>
-			<th><input name="ae" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="af" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ag" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ah" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ai" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="aj" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ak" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="al" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="am" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="an" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
-			<th><input name="ao" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit"></th>
+			<th><input name="ae" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="af" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ag" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ah" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ai" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="aj" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ak" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="al" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="am" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="an" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
+			<th><input name="ao" type="text" onkeyup="this.value = this.value.toUpperCase();" maxlength="1" form="submit" size="2"></th>
 		</tr>
 		<tr>
 			<th>31</th>
@@ -168,5 +168,50 @@
 	<form method="post" id="submit">
 		<input type="submit" style="width: 30%; height: 30px;" name="submit" value="Überprüfen" />
 	</form>
+	<br />
+	<br />
+	<br />
+	<table style="border: 1px solid black;">
+		<tr>
+			<th></th>
+			<th>1</th>
+			<th>2</th>
+		</tr>
+		<tr>
+			<th>3</th>
+			<th>A</th>
+			<th>D</th>
+		</tr>
+		<tr>
+			<th>4</th>
+			<th>E</th>
+			<th>F</th>
+		</tr>
+		<tr>
+			<th>5</th>
+			<th>G</th>
+			<th>I</th>
+		</tr>
+		<tr>
+			<th>6</th>
+			<th>M</th>
+			<th>N</th>
+		</tr>
+		<tr>
+			<th>7</th>
+			<th>O</th>
+			<th>R</th>
+		</tr>
+		<tr>
+			<th>8</th>
+			<th>S</th>
+			<th>T</th>
+		</tr>
+		<tr>
+			<th>9</th>
+			<th>U</th>
+			<th>W</th>
+		</tr>
+	</table>
 </body>
 </html>

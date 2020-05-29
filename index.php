@@ -9,7 +9,7 @@
 <title>KiGo Rätsel: Pfingsten</title>
 </head>
 
-<body style="text-align: center; margin: auto; width: 50%;">
+<body style="text-align: center; margin: auto; width: 50%; background-image: url('back.png'); background-size: cover;">
 	<?php
 		if(array_key_exists('submit', $_POST)) {
 			if($_POST["a"] == "W" && $_POST["b"] == "U" && $_POST["c"] == "R" && $_POST["d"] == "D" && $_POST["e"] == "E" && $_POST["f"] == "N"
@@ -27,7 +27,7 @@
 			} else {
 				echo "
 				<script type=\"text/javascript\" language=\"Javascript\">
-					alert(\"Leider nicht ganz richtig.\");
+					alert(\"Leider noch nicht ganz richtig.\");
 				</script>";
 			}
 		}

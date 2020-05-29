@@ -33,7 +33,6 @@
 		}
 	?>
 	<h2>Vervollständige den folgenden Satz:</h2>
-	<br />
 	<h2>Etwa 3000 Menschen...</h2>
 	<table>
 		<tr>
@@ -165,6 +164,7 @@
 			<th>62</th>
 		</tr>
 	</table>
+	<br />
 	<form method="post" id="submit">
 		<input type="submit" style="width: 30%; height: 30px;" name="submit" value="Überprüfen" />
 	</form>
@@ -213,5 +213,7 @@
 			<th>W</th>
 		</tr>
 	</table>
+	<br />
+	<button onclick="alert('92 = W\n51 = G');" style="float: left;">Tipp anzeigen</button>
 </body>
 </html>
